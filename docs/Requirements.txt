@@ -1,0 +1,1 @@
+Reglas de negocio: ¿Cómo se calcula el stock en tiempo real? ¿Qué pasa si un pago falla pero el producto ya se apartó? ¿Existen cupones acumulables?

@@ -1,0 +1,9 @@
+[ ] Arquitectura de la aplicación - Definir primero tus entidades core: Product,Category, Order, User, Cart.
+
+[ ] Crear Modelos y base de datos de acuerdo a las entidades SQL para para transacciones financieras, NoSQL: Útil para catálogos de productos con atributos muy variados o para manejar sesiones de carrito de compra masivas.
+
+[ ] Autenticación - Configura JWT (con djangorestframework-simplejwt)
+
+
+
+

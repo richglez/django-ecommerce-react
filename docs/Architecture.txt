@@ -1,0 +1,32 @@
+API ARCHITECTURE
+
+API REST
+Gestión de inventarios, creación de usuarios o actualización de datos de envío.
+Excelente para operaciones donde necesitas una estructura rígida y confiable (como el panel de administración).
+
+GraphQL
+La vista del producto. En una sola consulta puedes traer el nombre, precio, imágenes, reseñas y productos relacionados, evitando hacer 5 peticiones distintas a una API REST.
+Evita el over-fetching (traer datos de más), lo que hace que la app móvil o web cargue mucho más rápido.
+
+Webhooks
+Para comunicación en tiempo real y eventos externos
+Crucial para la integración con pasarelas de pago (Stripe, PayPal). Cuando el cliente termina de pagar en su plataforma, ellos envían un webhook a tu servidor para que tú liberes la orden.
+Es asíncrono y ahorra recursos, ya que tu servidor solo actúa cuando ocurre el evento.
+
+
+
+
+
+
+MICROSERVICES
+
+
+Exploración: El usuario usa GraphQL para navegar por el catálogo rápidamente. Consultas optimizadas para el frontend.
+
+Checkout: Al presionar "Pagar", el frontend hace una petición REST para crear la orden en la base de datos.
+
+Pago: El usuario es redirigido a la pasarela de pago.
+
+Confirmación: Una vez que el pago es exitoso, la pasarela envía un Webhook a tu backend.
+
+Finalización: Tu backend recibe el webhook, actualiza el estado de la orden en la DB y dispara un correo de confirmación.
