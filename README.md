@@ -9,14 +9,24 @@ It's an online marketplace with a wide variety of products, from clothing to ele
 * User Panel: Profile, order history ("My Orders"), and shipping addresses
 * Administration Panel: Product, user, and order management
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-| Tech            | Use                             |
-| --------------- | ------------------------------- |
-| Django 6.0      | Backend Framework               |
-| DRF             | For the creation of the API     |
-| Vitejs / React  | Client Framework                |
-| Typescript      | Language                        |
-| Tailwind CSS v4 | Styles                          |
-| DRF-Spectacular | API documentation (OpenAPI 3.0) |
+### Backend
+
+| Tech                |              Icon              | Use                           |
+| :------------------ | :----------------------------: | :---------------------------- |
+| **Django 6.0**      | ![Django](https://shields.io)  | Core Framework                |
+| **DRF**             |   ![DRF](https://shields.io)   | RESTful API Engine            |
+| **DRF-Spectacular** | ![OpenAPI](https://shields.io) | Documentation (Swagger/Redoc) |
+| **SQLite**          | ![SQLite](https://shields.io)  | Database (Dev)                |
+
+### Frontend
+
+| Tech                |                           Icon                           | Use               |
+| :------------------ | :------------------------------------------------------: | :---------------- |
+| **React + Vite**    | ![React](https://shields.io) ![Vite](https://shields.io) | Client Framework  |
+| **TypeScript**      |                ![TS](https://shields.io)                 | Language & Typing |
+| **Tailwind CSS v4** |             ![Tailwind](https://shields.io)              | Styling & UI      |
+| **Axios**           |               ![Axios](https://shields.io)               | API Requests      |
+
 
