@@ -13,20 +13,20 @@ It's an online marketplace with a wide variety of products, from clothing to ele
 
 ### Backend
 
-| Tech                |              Icon              | Use                           |
-| :------------------ | :----------------------------: | :---------------------------- |
-| **Django 6.0**      | ![Django](https://shields.io)  | Core Framework                |
-| **DRF**             |   ![DRF](https://shields.io)   | RESTful API Engine            |
-| **DRF-Spectacular** | ![OpenAPI](https://shields.io) | Documentation (Swagger/Redoc) |
-| **SQLite**          | ![SQLite](https://shields.io)  | Database (Dev)                |
+| Tech                |   Use                          |
+| :------------------ | :----------------------------- |
+| **Django 6.0**      |  Core Framework                |
+| **DRF**             |  RESTful API Engine            |
+| **DRF-Spectacular** |  Documentation (Swagger/Redoc) |
+| **SQLite**          |  Database (Dev)                |
 
 ### Frontend
 
-| Tech                |                           Icon                           | Use               |
-| :------------------ | :------------------------------------------------------: | :---------------- |
-| **React + Vite**    | ![React](https://shields.io) ![Vite](https://shields.io) | Client Framework  |
-| **TypeScript**      |                ![TS](https://shields.io)                 | Language & Typing |
-| **Tailwind CSS v4** |             ![Tailwind](https://shields.io)              | Styling & UI      |
-| **Axios**           |               ![Axios](https://shields.io)               | API Requests      |
+| Tech                |  Use               |
+| :------------------ | :----------------- |
+| **React + Vite**    |  Client Framework  |
+| **TypeScript**      |  Language & Typing |
+| **Tailwind CSS v4** |  Styling & UI      |
+| **Axios**           |  API Requests      |
 
 
